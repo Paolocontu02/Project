@@ -1,0 +1,68 @@
+<html>
+<head>
+	<title>Pizzeria</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+ <body style="background-color:red">
+  <div class="container">
+    <div class="card">
+	
+		
+	  <div class="info">
+	    <br>
+	    <center><h1> Pizzeria paolo </h1>  </center>
+		
+	    <br><br>
+<center>
+		<h3>Cognome&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nome&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		    Indirizzo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Citta&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Telefono&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tipo Pizza&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Personalizzazione&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data consegna</h3> 
+
+		<form name="Pizzeria" action="ordina_pizza.php" method="POST">
+		  <b>   </b>
+		 		   
+		  <input type="text" name="cognome" maxlength="15" size="20" style="font-size:10px";>
+		  <input type="text" name="nome" maxlength="15" size="20" style="font-size:10px">
+		  <input type="text" name="indirizzo" maxlength="15" size="20" style="font-size:10px">
+		  <input type="text" name="citta" maxlength="15" size="20" style="font-size:10px">
+		  <input type="text" name="telefono" maxlength="15" size="20" style="font-size:10px">
+		  <input type="text" name="email" maxlength="15" size="20" style="font-size:10px">
+		  <select  name="scelta" style="font-size:14px">
+                <option>Bianca
+                <option>Rossa
+                <option>Margherita
+                <option>Diavola
+				<option>Quattro stagioni
+          </select>
+		  <input type="text" name="personalizzazione" maxlength="15" size="20" style="font-size:10px">
+	          <input type="datetime-local" name="dataconsegna" maxlength="15" size="20" style="font-size:10px">
+		  <br>
+		  <br> 
+		    
+		  <br>
+		  </center>
+		
+		  
+		   <center>  
+		   
+		   <button onclick="window.location.href='ordina_pizza.php'"><h3>Ordina Pizza</h3></button> 
+		   </center>
+		
+		</form>  
+				
+ 	 </div>	
+	  <center>
+	 <div class="login">
+	   <br> <br>
+	   <button onclick="window.location.href='stampa_pizza.php'"><h4>Visualizza Pizze</h4></button> 
+	 
+	</div>
+   </center>
+  </div>
+
+</body>
+</html>
+
